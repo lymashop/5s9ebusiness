@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yönko Business</title>
+    <title>5s9 e-Business</title>
     <link rel="icon" href="favicon.png">
     <script src="https://kit.fontawesome.com/1519f19b40.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -317,7 +317,7 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo">Yönko Business</a>
+            <a href="#" class="logo">5s9 e-Business</a>
             <div class="nav-menu">
                 <a href="#" onclick="showPage('home')">Accueil</a>
                 <a href="#" onclick="showPage('about')">About</a>
@@ -345,10 +345,10 @@
         <h2 class="section-title" data-aos="fade-up">Nos Produits</h2>
         <div class="product-grid">
             <div class="product-card" data-aos="fade-up">
-                <img src="img1.jpg" alt="Produit 1" class="product-image">
+                <img src="img1.jpg" alt="Product 1" class="product-image">
                 <div class="product-info">
-                    <h3 class="product-title">Parfum Mastermind</h3>
-                    <p class="product-price">1000 francs</p>
+                    <h3 class="product-title">product_1</h3>
+                    <p class="product-price">price</p>
                     <button class="add-to-cart">Ajouter au panier</button>
                 </div>
             </div>
@@ -464,7 +464,7 @@ function removeFromCart(index) {
 function checkout() {
     if (cartItems.length > 0) {
         // Créer le message pour WhatsApp
-        let message = "Bonjour Yönko Business Manager,\n\nJ'aimerais passer la commande suivante:\n\n";
+        let message = "Hello 5s9 e-Business Manager,\n\nJ'aimerais passer la commande suivante:\n\n";
 
         // Ajouter chaque article
         cartItems.forEach(item => {
@@ -479,7 +479,7 @@ function checkout() {
         const encodedMessage = encodeURIComponent(message);
 
         // Rediriger vers WhatsApp avec le message préformaté
-        window.open(`https://wa.me/772696917?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/789229104?text=${encodedMessage}`, '_blank');
 
         // Vider le panier après la redirection
         cartItems = [];
